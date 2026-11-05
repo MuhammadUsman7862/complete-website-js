@@ -1,0 +1,8 @@
+[
+  {"id":1,"week":1,"title":"Build a list page","category":"HTML","description":"Create a semantic page with headings, lists and links.","due":"2027-06-08","status":"completed"},
+  {"id":2,"week":2,"title":"Build a form","category":"Forms","description":"Labels, inputs and validation attributes.","due":"2027-06-15","status":"in-progress"},
+  {"id":3,"week":3,"title":"Style with CSS","category":"CSS","description":"Layout with Flexbox and Grid, plus design tokens.","due":"2027-06-22","status":"pending"},
+  {"id":4,"week":4,"title":"Add interactivity","category":"JavaScript","description":"DOM events, search and filter, localStorage.","due":"2027-06-29","status":"pending"},
+  {"id":5,"week":5,"title":"Rebuild with jQuery","category":"jQuery","description":"Selectors, delegated events, AJAX and effects.","due":"2027-07-06","status":"pending"},
+  {"id":6,"week":6,"title":"Final portal project","category":"Project","description":"Combine everything into one tested internship portal.","due":"2027-07-13","status":"pending"}
+]

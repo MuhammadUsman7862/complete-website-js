@@ -1,0 +1,36 @@
+Testing Notes - Task 10 (Responsive CSS Project)
+
+DRAFT: I wrote these from the CSS. Before submitting, open the page in DevTools,
+check each line, and change anything that does not match what you really see.
+
+Mobile (375px, device toolbar)
+What I saw: header wraps (brand, nav, theme switch). Hero is one column. Cards are 1 column.
+Form fields are 1 column. Footer is 1 column. The table scrolls inside its box. No sideways page scroll.
+Task cards stay stacked (their container is narrower than 22rem).
+
+Tablet (768px)
+What I saw: About is 2 columns (3fr / 2fr). Form groups are 2 columns. Cards show 2-3 per row.
+Task cards switch to text-left, badge-right because the container query matches.
+
+Desktop (1280px)
+What I saw: hero is 2 columns, footer is 3 columns (2fr 1fr 1fr), content is limited to 80rem.
+
+Theme
+What I saw: Auto follows the system. Light and Dark both work from either system setting.
+
+Focus states (Tab key)
+What I saw: nav links, buttons, FAQ summaries and form fields show a clear outline. Skip link appears first.
+
+Form states
+What I saw: required fields show *, invalid fields get a red border and "Please check this field.",
+valid fields get a green border and "Looks good.", the Remote option is greyed out (disabled).
+
+Reduced motion (DevTools > Rendering > Emulate prefers-reduced-motion)
+What I saw: hero entry animation, badge pulse, hover lifts and smooth scroll all stop.
+
+Print preview (Ctrl+P)
+What I saw: header, theme switch, buttons, video, audio, map and image are hidden. Colours are black on white.
+External link addresses are printed after the link text.
+
+Computed styles
+What I saw: in the Computed tab the colours come from the --primary and --surface variables, and change when the theme changes.

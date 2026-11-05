@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A small internship website built with HTML only.">
+  <title>Bloomrix Internship Website</title>
+  <link rel="icon" href="data:,">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/json" id="site-data">{"program":"Summer Internship","weeks":10}</script>
+</head>
+<body>
+
+<noscript>
+  <p>This site works without JavaScript.</p>
+</noscript>
+
+<a class="skip" href="#main">Skip to content</a>
+<div id="toasts" role="status" aria-live="polite"></div>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="#home">Bloomrix</a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="main-nav__list">
+        <li><a class="main-nav__link" href="#home" aria-current="page">Home</a></li>
+        <li><a class="main-nav__link" href="#about">About</a></li>
+        <li><a class="main-nav__link" href="#skills">Skills</a></li>
+        <li><a class="main-nav__link" href="#training">Training</a></li>
+        <li><a class="main-nav__link" href="#assignments">Assignments</a></li>
+        <li><a class="main-nav__link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <fieldset class="theme">
+      <legend class="sr-only">Colour theme</legend>
+      <label class="theme__option"><input class="sr-only" type="radio" name="theme" id="theme-system" checked>Auto</label>
+      <label class="theme__option"><input class="sr-only" type="radio" name="theme" id="theme-light">Light</label>
+      <label class="theme__option"><input class="sr-only" type="radio" name="theme" id="theme-dark">Dark</label>
+    </fieldset>
+  </div>
+</header>
+
+
+
+<main id="main">
+
+  <section id="home" class="hero" lang="en">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <h1>Bloomrix Internship Website</h1>
+        <p>Welcome to our <strong>Ten-week</strong> internship program. Learn real <em>web skills</em> and build a project for your portfolio.</p>
+        <p class="hero__actions">
+          <a class="btn btn--light" href="#contact">Apply now</a>
+          <a class="btn btn--ghost" href="#about">About the program</a>
+        </p>
+        <p>Or read <a href="https://www.codewithharry.com/notes" title="Free HTML lessons">Harry's learning guide</a>.</p>
+      </div>
+      <picture>
+        <img class="hero__media" src="image.png" alt="Banner for the internship program" width="400" height="400">
+      </picture>
+    </div></section>
+
+  
+
+  <section id="about" class="section"><div class="container">
+    <h2 class="section__title">About</h2>
+    <div class="about"><article class="about__main">
+      <h3>Our program</h3>
+      <p>The program teaches HTML, forms, media and clean page structure. It starts on <time datetime="2027-06-01">1 June 2027</time> and lasts <data value="10">ten</data> weeks.</p>
+      <p>A <dfn>semantic element</dfn> is a tag whose name describes its meaning, like <code>&lt;nav&gt;</code> or <code>&lt;footer&gt;</code>.</p>
+      <p>Long word example: super<wbr>cali<wbr>fragilistic<wbr>expialidocious.</p>
+      <p translate="no">Brand name: Bloomrix</p>
+    </article>
+    <div class="about__side"><blockquote>
+      <p>The best way to learn HTML is to build something with it.</p>
+      <footer>&mdash; <cite>Program mentor</cite></footer>
+    </blockquote>
+    <p>Our mentor said, <q>Practice a little every day.</q></p>
+    <aside>
+      <h3>Good to know</h3>
+      <p><small>Spaces are limited to 30 interns per year.</small></p>
+    </aside>
+    <address>Bloomrix<pre>Office 4, 2nd Floor, Queens Centre 
+33 Queens Road, Lahore, Punjab
+Pakistan, 54000</pre>
+      <a href="https://www.codewithharry.com/">harry@example.com</a>
+    </address></div></div>
+  </div></section>
+
+  
+  <section id="skills" class="section"><div class="container">
+    <h2 class="section__title">Skills</h2>
+    <div class="card-grid">
+      <article class="card"><h3>What you will learn</h3>
+        <ul><li>HTML page structure</li><li>Forms and validation</li><li>Media and embedded content</li></ul></article>
+      <article class="card"><h3>Key terms</h3>
+        <dl><dt>Attribute</dt><dd>Extra information inside a tag.</dd><dt>Element</dt><dd>A tag with its content.</dd></dl></article>
+      <article class="card"><h3>Code example</h3>
+        <pre><code>&lt;a href="#home"&gt;Home&lt;/a&gt;</code></pre>
+        <p>Set <var>x</var> = 5, then press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save. The browser shows: <samp>File saved</samp>.</p></article>
+      <article class="card"><h3>Quick facts</h3>
+        <p>Water is H<sub>2</sub>O and 2<sup>3</sup> = 8. The <abbr title="HyperText Markup Language">HTML</abbr> standard is <mark>always growing</mark>.</p>
+        <p>Your skill level: <meter min="0" max="10" low="3" high="7" optimum="9" value="6">6 out of 10</meter></p>
+        <p>Program progress: <progress value="40" max="100">40%</progress></p></article>
+    </div></div></section>
+
+  
+
+  <section id="training" class="section"><div class="container">
+    <h2 class="section__title">Training</h2>
+    <h3>Steps to finish the program</h3>
+    <ol class="roadmap">
+      <li class="roadmap__item">Learn the tags</li>
+      <li class="roadmap__item">Practice in small files</li>
+      <li class="roadmap__item">Build the final project</li>
+    </ol>
+    <div class="table-wrap" role="region" aria-label="Weekly schedule table" tabindex="0"><table class="data-table">
+      <caption>Weekly schedule</caption>
+      <thead>
+        <tr><th scope="col">Week</th><th scope="col">Topic</th><th scope="col">Day</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>HTML basics</td><td>Monday</td></tr>
+        <tr><td>2</td><td>Forms</td><td>Tuesday</td></tr>
+        <tr><td>3</td><td>Media</td><td>Wednesday</td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td colspan="3">More weeks will be added.</td></tr>
+      </tfoot>
+    </table></div>
+
+    <h3>Intro video</h3>
+    <video class="embed" controls>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+
+    <h3>Audio tip</h3>
+    <audio class="audio" controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+
+    <h3>Office map</h3>
+    <iframe class="embed" title="Office location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425.00709714933134!2d74.31741840157711!3d31.550056387200286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919054fa33a3d0d%3A0xa9de60c6d123e38e!2sQueens%20Centre!5e0!3m2!1sen!2s!4v1792600413357!5m2!1sen!2s" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <h3>Frequently asked questions</h3>
+    <div class="faq">
+    <details open>
+      <summary>Is the internship paid?</summary>
+      <p>No, but you get a certificate.</p>
+    </details>
+    <details>
+      <summary>Do I need experience?</summary>
+      <p>No, beginners are welcome.</p>
+    </details>
+    </div>
+  </div></section>
+
+  
+
+  <section id="assignments" class="section"><div class="container">
+    <h2 class="section__title">Assignments</h2>
+
+    <!-- ===== VANILLA JS COMPONENT (js/app.js) ===== -->
+    <h3>Assignment list &mdash; Vanilla JS</h3>
+    <div class="toolbar" role="search">
+      <label for="va-search">Search<input id="va-search" type="search" placeholder="Try &quot;form&quot; or &quot;CSS&quot;"></label>
+      <label for="va-filter">Status
+        <select id="va-filter"><option value="all">All</option><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option></select>
+      </label>
+    </div>
+    <p class="list-meta" id="va-count" aria-live="polite">Loading assignments&hellip;</p>
+    <ul class="card-grid" id="va-list"></ul>
+    <p id="va-empty" class="list-meta" hidden>No assignments match your search.</p>
+
+    <template id="task-card">
+      <li class="card-slot"><article class="card card--task">
+        <div><h3></h3><p class="desc"></p><p class="meta list-meta"></p>
+          <p><button type="button" class="btn btn--outline btn--sm js-details">Details</button></p></div>
+        <button type="button" class="badge" title="Click to change status"></button>
+      </article></li>
+    </template>
+
+    <!-- ===== JQUERY COMPONENT (js/app-jquery.js) ===== -->
+    <h3 class="gap-top">Assignment list &mdash; jQuery version</h3>
+    <div class="toolbar" role="search">
+      <label for="jq-search">Search<input id="jq-search" type="search" placeholder="Search (jQuery)"></label>
+      <label for="jq-filter">Status
+        <select id="jq-filter"><option value="all">All</option><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option></select>
+      </label>
+    </div>
+    <p class="list-meta" id="jq-count" aria-live="polite">Loading assignments&hellip;</p>
+    <p class="list-meta" id="jq-summary"></p>
+    <ul class="card-grid" id="jq-list"></ul>
+
+    <h3 class="gap-top">Quick notes &mdash; jQuery</h3>
+    <form id="jq-note-form" class="toolbar" novalidate>
+      <label for="jq-note">New note<input id="jq-note" type="text" maxlength="80" placeholder="Write a reminder"></label>
+      <button class="btn btn--sm" type="submit">Add note</button>
+    </form>
+    <ul class="notes" id="jq-notes"></ul>
+  </div></section>
+
+  
+
+  <section id="contact" class="section"><div class="container">
+    <h2 class="section__title">Contact</h2>
+    <form class="form" action="https://example.com/apply" method="post" enctype="multipart/form-data" autocomplete="on">
+      <input type="hidden" name="form_id" value="contact-001">
+
+      <fieldset class="form__group">
+        <legend class="form__legend">Your details</legend>
+        <p class="field">
+          <label for="fname">Full name</label><br>
+          <input id="fname" name="fname" type="text" autocomplete="name" placeholder="Usman Khan" required>
+        </p>
+        <p class="field">
+          <label for="email">Email</label><br>
+          <input id="email" name="email" type="email" required autocomplete="email">
+        </p>
+        <p class="field">
+          <label for="phone">Phone (03111234567)</label><br>
+          <input id="phone" name="phone" type="tel" pattern="03[0-9]{9}" title="Use the format 03111234567">
+        </p>
+        <p class="field">
+          <label for="site">Website</label><br>
+          <input id="site" name="website" type="url" placeholder="https://">
+        </p>
+        <p class="field">
+          <label for="pass">Password (at least 8 characters)</label><br>
+          <input id="pass" name="password" type="password" minlength="8" required>
+        </p>
+        <p class="field">
+          <label for="age">Age (18-35)</label><br>
+          <input id="age" name="age" type="number" min="18" max="35" step="1">
+        </p>
+        <p class="field">
+          <label for="date">Start date</label><br>
+          <input id="date" name="start" type="date" min="2027-06-01" max="2027-07-31">
+        </p>
+        <p class="field">
+          <label for="find">Search our FAQ</label><br>
+          <input id="find" name="find" type="search">
+        </p>
+      </fieldset>
+
+      <fieldset class="form__group">
+        <legend class="form__legend">Your application</legend>
+        <p class="field">
+          <label for="prog">Program</label><br>
+          <select id="prog" name="program" required>
+            <option value="">-- Choose --</option>
+            <optgroup label="Technical">
+              <option value="web">Web Developer</option>
+              <option value="ai">AI</option>
+            </optgroup>
+            <optgroup label="Creative">
+              <option value="social">Social Media</option>
+            </optgroup>
+          </select>
+        </p>
+        <p class="field">
+          <label for="skill">Main skill</label><br>
+          <input id="skill" name="skill" list="skills-list" maxlength="30">
+          <datalist id="skills-list">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="Python"></option>
+          </datalist>
+        </p>
+        <p>Preferred mode:</p>
+        <p class="field">
+          <label><input type="radio" name="mode" value="onsite" checked> On-site</label>
+          <label><input type="radio" name="mode" value="remote" disabled> Remote (unavailable)</label>
+        </p>
+        <p class="field">
+          <label for="msg">Message (20-300 characters)</label><br>
+          <textarea id="msg" name="message" rows="4" cols="40" minlength="20" maxlength="300" required></textarea>
+        </p>
+        <p class="field">
+          <label for="cv">Resume (PDF)</label><br>
+          <input id="cv" name="resume" type="file" accept=".pdf" required>
+        </p>
+        <p class="field">
+          <label for="pics">Work samples</label><br>
+          <input id="pics" name="samples" type="file" accept="image/*" multiple>
+        </p>
+        <p class="field">
+          <label for="fixed">Internship length</label><br>
+          <input id="fixed" name="length" type="text" value="10 weeks" readonly>
+        </p>
+        <p class="field">
+          <label><input type="checkbox" name="agree" value="yes" required> I accept the terms</label>
+        </p>
+      </fieldset>
+
+      <p class="form__actions">
+        <button class="btn" type="submit">Send application</button>
+        <input class="btn btn--outline" type="reset" value="Clear form">
+      </p>
+    </form>
+  </div></section>
+
+</main>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div><h3>Bloomrix</h3><p>A ten-week web internship program in Lahore.</p></div>
+      <nav aria-label="Footer"><h3>Sections</h3><ul class="footer__list"><li><a href="#about">About</a></li><li><a href="#training">Training</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+      <div><h3>Visit us</h3><p>Queens Centre, 33 Queens Road, Lahore</p></div>
+    </div>
+    <div class="footer__bottom">
+      <p><small>&copy; 2026 Bloomrix. Last updated <time datetime="2026-10-21">21 October 2026</time>.</small></p>
+      <p><a href="#home">Back to top</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Vanilla modal: native <dialog> -->
+<dialog class="modal" id="va-modal" aria-labelledby="va-modal-title">
+  <h3 id="va-modal-title"></h3><p id="va-modal-body"></p><p id="va-modal-meta" class="list-meta"></p>
+  <button type="button" class="btn btn--sm" id="va-modal-close">Close</button>
+</dialog>
+
+<!-- jQuery modal: overlay div + fadeIn/fadeOut -->
+<div id="jq-modal" class="modal-overlay" style="display:none" role="dialog" aria-modal="true" aria-labelledby="jq-modal-title">
+  <div class="modal-box"><h3 id="jq-modal-title"></h3><p id="jq-modal-body"></p><p id="jq-modal-meta" class="list-meta"></p>
+    <p><button type="button" class="btn btn--outline btn--sm" id="jq-modal-next">Next assignment &rarr;</button>
+    <button type="button" class="btn btn--sm" id="jq-modal-close">Close</button></p></div>
+</div>
+
+<script type="application/json" id="assignments-fallback">[{"id": 1, "week": 1, "title": "Build a list page", "category": "HTML", "description": "Create a semantic page with headings, lists and links.", "due": "2027-06-08", "status": "completed"}, {"id": 2, "week": 2, "title": "Build a form", "category": "Forms", "description": "Labels, inputs and validation attributes.", "due": "2027-06-15", "status": "in-progress"}, {"id": 3, "week": 3, "title": "Style with CSS", "category": "CSS", "description": "Layout with Flexbox and Grid, plus design tokens.", "due": "2027-06-22", "status": "pending"}, {"id": 4, "week": 4, "title": "Add interactivity", "category": "JavaScript", "description": "DOM events, search and filter, localStorage.", "due": "2027-06-29", "status": "pending"}, {"id": 5, "week": 5, "title": "Rebuild with jQuery", "category": "jQuery", "description": "Selectors, delegated events, AJAX and effects.", "due": "2027-07-06", "status": "pending"}, {"id": 6, "week": 6, "title": "Final portal project", "category": "Project", "description": "Combine everything into one tested internship portal.", "due": "2027-07-13", "status": "pending"}]</script>
+<!-- Order matters: Vanilla app first, then jQuery library, then jQuery code -->
+<script src="js/app.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+<script src="js/app-jquery.js" defer></script>
+
+</body>
+</html>
