@@ -14,5 +14,5 @@ jQuery 3.7.1 loads from code.jquery.com, so an internet connection is needed for
 - `data/assignments.json` - assignment data.
 
 ## Test checklist
-Search & filter both lists, click a status badge (refresh: it persists in the Vanilla list), open both modals (Esc / backdrop / Close), submit the form empty and filled, change theme and reload, add and remove notes, tab through with the keyboard, toggle prefers-reduced-motion.
+Search + filter both lists, click a status badge (refresh: it persists in the Vanilla list), open both modals (Esc / backdrop / Close), submit the form empty and filled, change theme and reload, add and remove notes, tab through with the keyboard, toggle prefers-reduced-motion.
                   
